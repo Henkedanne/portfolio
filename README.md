@@ -2,6 +2,16 @@
  A gulp boilerplate
 
 # Instructions
+## Installation
+Install node.js:
+```sh
+$ npm install
+```
+Install Gulp.js:
+```sh
+$ npm gulp install
+```
+
 ```sh
 $ gulp watch
 ```
