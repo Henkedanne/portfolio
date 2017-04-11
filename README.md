@@ -1,8 +1,8 @@
 # gulp-starter
  A gulp boilerplate
----
-# Instructions
-## Installation
+
+## Instructions
+### Installation
 Install node.js:
 ```sh
 $ npm install
@@ -12,11 +12,11 @@ Install Gulp.js:
 $ npm install gulp
 ```
 ---
-## Run
+### Run
 Start Browser sync and Sass compile:
 ```sh
 $ gulp watch
 ```
 ---
  
- Learned from "https://css-tricks.com/gulp-for-beginners/".
+Learned from "https://css-tricks.com/gulp-for-beginners/".
