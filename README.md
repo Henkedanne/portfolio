@@ -9,7 +9,7 @@ $ npm install
 ```
 Install Gulp.js:
 ```sh
-$ npm gulp install
+$ npm install gulp
 ```
 
 ```sh
