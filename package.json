@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Henkedanne/gulp-starter.git"
+    "url": "git+https://github.com/Henkedanne/portfolio.git"
   },
   "author": "Henrik Danielsson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Henkedanne/gulp-starter/issues"
+    "url": "https://github.com/Henkedanne/portfolio/issues"
   },
-  "homepage": "https://github.com/Henkedanne/gulp-starter#readme",
+  "homepage": "https://github.com/Henkedanne/portfolio#readme",
   "devDependencies": {
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
