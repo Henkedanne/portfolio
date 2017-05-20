@@ -2,29 +2,48 @@
 /* Main CSS */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
   background-color: white;
   font-family: sans-serif; }
 
 .wrapper {
-  display: flex; }
+  display: flex;
+  flex-direction: row; }
 
 /* Sidebar Nav*/
-aside {
-  display: flex;
-  flex-direction: column;
-  background-color: blue;
-  height: 100vh;
-  min-width: 10%;
-  padding: 10px 20px;
-  align-items: center; }
-  aside #logo {
-    align-self: center;
-    padding-bottom: 20px; }
-  aside li {
+/*TODO Fix the sidebar so that the content doesn't go under it!*/
+.sidebar {
+  display: flex; }
+
+.sidebar-wrapper {
+  position: fixed;
+  background-color: darkblue;
+  align-items: center;
+  padding: 20px;
+  height: 100vh; }
+  .sidebar-wrapper #logo {
+    align-self: center; }
+  .sidebar-wrapper ul {
+    padding-top: 20px; }
+  .sidebar-wrapper li {
     align-self: center;
     list-style: none; }
-  aside #primary-list {
+  .sidebar-wrapper #primary-list {
     padding-bottom: 50px; }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 100vh; }
+  section .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    flex-grow: 1;
+    width: 250px;
+    height: 250px; }

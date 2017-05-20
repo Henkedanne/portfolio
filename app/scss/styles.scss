@@ -4,29 +4,38 @@ $primary-color: blue;
 $secondary-color: darkblue;
 
 /* Main CSS */
-* {margin: 0; padding: 0;}
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	background-color: $background-color;
 	font-family: sans-serif;
 }
 .wrapper {
-display: flex;
+ 	display: flex;
+ 	flex-direction: row;
 }
 /* Sidebar Nav*/
-aside {
+/*TODO Fix the sidebar so that the content doesn't go under it!*/
+.sidebar {
 	display: flex;
-	flex-direction: column;
-	background-color: $primary-color;
-	height: 100vh;
-	min-width: 10%;
-	padding: 10px 20px;
+	
+}
+.sidebar-wrapper {
+	position: fixed;
+	background-color: $secondary-color;
 	align-items: center;
+	padding: 20px;
+	height: 100vh;
+	
 	#logo {
 		align-self: center;
-		padding-bottom: 20px;
+		
 	}
 	ul {
-		
+		padding-top: 20px;
 	}
 	li {
 		align-self: center;
@@ -34,5 +43,22 @@ aside {
 	}
 	#primary-list {
 		padding-bottom: 50px;
+	}
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	height: 100vh;
+
+	.box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: solid black 1px;
+		flex-grow: 1;
+		width: 250px;
+		height: 250px;
 	}
 }
