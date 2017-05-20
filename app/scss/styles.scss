@@ -1,5 +1,38 @@
-$background-color: #999;
+/* VARIABLES */
+$background-color: white;
+$primary-color: blue;
+$secondary-color: darkblue;
 
+/* Main CSS */
+* {margin: 0; padding: 0;}
 body {
 	background-color: $background-color;
+	font-family: sans-serif;
+}
+.wrapper {
+display: flex;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	background-color: $primary-color;
+	height: 100vh;
+	min-width: 10%;
+	padding: 10px 20px;
+	align-items: center;
+	#logo {
+		align-self: center;
+		padding-bottom: 20px;
+	}
+	ul {
+		
+	}
+	li {
+		align-self: center;
+		list-style: none;
+	}
+	#primary-list {
+		padding-bottom: 50px;
+	}
 }

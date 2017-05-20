@@ -1,2 +1,29 @@
+/* VARIABLES */
+/* Main CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
-  background-color: #999; }
+  background-color: white;
+  font-family: sans-serif; }
+
+.wrapper {
+  display: flex; }
+
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  height: 100vh;
+  min-width: 10%;
+  padding: 10px 20px;
+  align-items: center; }
+  aside #logo {
+    align-self: center;
+    padding-bottom: 20px; }
+  aside li {
+    align-self: center;
+    list-style: none; }
+  aside #primary-list {
+    padding-bottom: 50px; }
