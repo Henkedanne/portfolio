@@ -1,5 +1,6 @@
-# gulp-starter
- A gulp boilerplate
+# Henrik Danielssons portfolio
+
+This is my portfolio. I'm using the boilerplate that I built. 
 
 ## Instructions
 ### Installation
