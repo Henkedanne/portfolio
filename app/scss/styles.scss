@@ -1,7 +1,7 @@
 /* VARIABLES */
 $background-color: white;
 $primary-color: blue;
-$secondary-color: darkblue;
+$secondary-color: #999;
 
 /* Main CSS */
 * {
@@ -9,32 +9,31 @@ $secondary-color: darkblue;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	background-color: $background-color;
 	font-family: sans-serif;
-}
-.wrapper {
- 	display: flex;
- 	flex-direction: row;
-}
-/* Sidebar Nav*/
-/*TODO Fix the sidebar so that the content doesn't go under it!*/
-.sidebar {
-	display: flex;
-	
-}
-.sidebar-wrapper {
-	position: fixed;
-	background-color: $secondary-color;
-	align-items: center;
-	padding: 20px;
-	height: 100vh;
-	
-	#logo {
-		align-self: center;
 		
+}
+
+/* Sidebar Nav*/
+
+/*TODO Fix the sidebar so that the content doesn't go under it!*/
+nav {
+
+}
+
+.nav-wrapper {
+	position: fixed;
+	padding: 20px;
+	width: 20vw;
+	background: $secondary-color;
+	height: 100vh;
+		#logo {
+		align-self: center;
 	}
 	ul {
+		
 		padding-top: 20px;
 	}
 	li {
@@ -45,13 +44,15 @@ body {
 		padding-bottom: 50px;
 	}
 }
-
+.wrapper {
+	
+}
 section {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
 	height: 100vh;
-
+	margin-left: 20vw;
 	.box {
 		display: flex;
 		justify-content: center;

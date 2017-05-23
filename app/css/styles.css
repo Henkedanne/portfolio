@@ -9,36 +9,30 @@ body {
   background-color: white;
   font-family: sans-serif; }
 
-.wrapper {
-  display: flex;
-  flex-direction: row; }
-
 /* Sidebar Nav*/
 /*TODO Fix the sidebar so that the content doesn't go under it!*/
-.sidebar {
-  display: flex; }
-
-.sidebar-wrapper {
+.nav-wrapper {
   position: fixed;
-  background-color: darkblue;
-  align-items: center;
   padding: 20px;
+  width: 20vw;
+  background: #999;
   height: 100vh; }
-  .sidebar-wrapper #logo {
+  .nav-wrapper #logo {
     align-self: center; }
-  .sidebar-wrapper ul {
+  .nav-wrapper ul {
     padding-top: 20px; }
-  .sidebar-wrapper li {
+  .nav-wrapper li {
     align-self: center;
     list-style: none; }
-  .sidebar-wrapper #primary-list {
+  .nav-wrapper #primary-list {
     padding-bottom: 50px; }
 
 section {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  height: 100vh; }
+  height: 100vh;
+  margin-left: 20vw; }
   section .box {
     display: flex;
     justify-content: center;
