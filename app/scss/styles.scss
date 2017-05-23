@@ -18,14 +18,14 @@ body {
 
 /* Sidebar Nav*/
 
-/*TODO Fix the sidebar so that the content doesn't go under it!*/
-nav {
+
 
 }
 
 .nav-wrapper {
 	position: fixed;
 	padding: 20px;
+	/* This width needs to be the same as <section> margin-left*/
 	width: 20vw;
 	background: $secondary-color;
 	height: 100vh;
@@ -52,6 +52,7 @@ section {
 	flex-wrap: wrap;
 	align-content: flex-start;
 	height: 100vh;
+	/* This margin-left needs to be the same as .nav-wrapper width*/
 	margin-left: 20vw;
 	.box {
 		display: flex;
