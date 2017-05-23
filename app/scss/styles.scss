@@ -18,9 +18,11 @@ body {
 
 /* Sidebar Nav*/
 
-
-
+nav {
+	display: flex;
 }
+
+
 
 .nav-wrapper {
 	position: fixed;
@@ -29,8 +31,12 @@ body {
 	width: 20vw;
 	background: $secondary-color;
 	height: 100vh;
-		#logo {
-		align-self: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+	#logo {
+		/*align-self: center;*/
 	}
 	ul {
 		
@@ -44,6 +50,7 @@ body {
 		padding-bottom: 50px;
 	}
 }
+
 .wrapper {
 	
 }
